@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main2"
+    android:orientation="vertical">
+
+    <com.coursemis.view.myView.TitleView
+        android:id="@+id/course_signin_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></com.coursemis.view.myView.TitleView>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/t_coursesignListview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

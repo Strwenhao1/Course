@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main2"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <com.coursemis.view.myView.TitleView
+            android:id="@+id/tStart_signIn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"></com.coursemis.view.myView.TitleView>
+
+        <Button
+            android:id="@+id/TeacherStarLoc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/select"
+            android:text="开启定位" />
+
+
+        <Button
+            android:id="@+id/TSignIn_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/select"
+            android:text="@string/SelectCourse" />
+
+        <Button
+            android:id="@+id/TSignIn_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/select"
+            android:text="课程周数" />
+
+        <Button
+            android:id="@+id/TSignIn_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/select"
+            android:text="课程时间" />
+
+        <Button
+            android:id="@+id/TSignIn_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/select"
+            android:text="签到时间限制" />
+
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:id="@+id/TSignIn_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/teststring"
+            android:textColor="@color/red"
+            android:textSize="20sp"></TextView>
+
+
+        <TextView
+            android:id="@+id/TSignIn_11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="该功能需要开启定位获得您的位置，暂时无法获得您的位置信息"
+            android:textColor="@color/red"
+            android:textSize="20sp"></TextView>
+
+    </TableLayout>
+
+</RelativeLayout>

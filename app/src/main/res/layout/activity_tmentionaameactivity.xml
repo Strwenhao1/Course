@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main2"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:id="@+id/TNMTable"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.coursemis.view.myView.TitleView
+            android:id="@+id/title_dianming1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+        </com.coursemis.view.myView.TitleView>
+
+        <Button
+            android:id="@+id/SelectCourse_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/select"
+            android:text="@string/SelectCourse" />
+
+        <Button
+            android:id="@+id/MentionNameWeeks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/select"
+            android:text="提问周数" />
+
+        <Button
+            android:id="@+id/MentionNameTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/select"
+            android:text="提问时间" />
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <TextView
+            android:id="@+id/Info_1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="你还没有选定提问信息"
+            android:textColor="@color/red" >
+        </TextView>
+    </LinearLayout>
+
+</RelativeLayout>
